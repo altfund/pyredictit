@@ -145,7 +145,7 @@ class Contract:
                 print('Purchase offer successful!')
             elif 'You do not have sufficient funds to make this offer' in str(r.content):
                 print('You do not have sufficient funds to make this offer!')
-            elif 'There was a problem creating your offer':
+            elif 'There was a problem creating your offer' in str(r.content):
                 print(f"DEBUGGING INFO - INCLUDE IN GITHUB ISSUE: {r.content}")
                 print('There was a problem creating the offer. Check to make sure that you don\'t have any \'yes\' contracts that would prevent you from buying \'no\'s or vice versa.')
             else:
