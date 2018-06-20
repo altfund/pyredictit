@@ -1,5 +1,6 @@
 # pyredictit
 =======
+http://pyvmmonitor.com PyVmMonitor is used for profiling.
 
 **DEVELOPMENT ON THIS LIBRARY IS CURRENTLY PAUSED** 
 pyredictit is a wrapper for the public PredictIt API (https://predictit.freshdesk.com/support/solutions/articles/12000001878-does-predictit-make-market-data-available-via-an-api-).  Running this module requires mechanicalsoup and <b>Python 3.6</b>.  Check out the Examples directory for some ideas on how to use this!
